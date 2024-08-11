@@ -9,7 +9,8 @@ app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
 
 app.get("/", function (req, res) {
-  res.sendFile(__dirname+"/index.html");
+  // res.sendFile(__dirname+"/index.html");
+  res.json({"message":"aaa"})
 });
 
 app.post("/contact", function (req,res) {
