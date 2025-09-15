@@ -14,7 +14,7 @@
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
@@ -137,7 +137,7 @@ figure {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 0.9em;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
@@ -237,7 +237,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 0em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -286,7 +286,7 @@ figure {
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
         vertical-align: middle;
-        min-height: 700px;
+        min-height: 300px;
         padding: 2.5em;
         position: relative; }
         @media screen and (max-width: 768px) {
@@ -382,8 +382,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   clear: both;
   width: 100%;
   display: block; }
@@ -399,6 +399,9 @@ body.offcanvas {
       padding-top: 5em;
       padding-bottom: 8em; } }
 
+  .colorlib-contact {
+    padding-bottom: 12em; }
+
 .author-img {
   background-size: cover;
   background-position: center center;
@@ -407,7 +410,7 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -482,7 +485,7 @@ body.offcanvas {
 
 .panel-heading a:after {
   font-family: "icomoon";
-  content: "\e115";
+  /* content: "\e115"; */
   position: absolute;
   right: 20px;
   font-size: 14px;
@@ -1016,7 +1019,7 @@ body.offcanvas {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); } }
   .project:hover .desc {
-    opacity: 1; }
+    opacity: 0.9; }
     .project:hover .desc h3 {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }
@@ -1435,4 +1438,10 @@ body.offcanvas {
   color: black;
   font-size: 40px;
   letter-spacing: 20px; 
+}
+
+.head {
+  height: 45vh;
+  min-height: 350px;
+  overflow: hidden
 }
