@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dc4e2013.css",
+    "main.js": "/static/js/main.531ef942.js",
+    "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
+    "static/media/euler-plotter.png": "/static/media/euler-plotter.50fa71950ba682e93f8a.png",
+    "static/media/artmap.png": "/static/media/artmap.fd1adc15d0a1fd7144d5.png",
+    "static/media/real-estate.jpg": "/static/media/real-estate.acc4f9de68c7b2ee57ce.jpg",
+    "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/nino.png": "/static/media/nino.4476704821b6cf3ace2a.png",
+    "static/media/xiaobai.png": "/static/media/xiaobai.352e47bfce360afe0ccd.png",
+    "static/media/profile.jpeg": "/static/media/profile.8b3f3f29ca631e561995.jpeg",
+    "static/media/youtube-customizer.png": "/static/media/youtube-customizer.52c2d6bf5992800e07e8.png",
+    "index.html": "/index.html",
+    "main.dc4e2013.css.map": "/static/css/main.dc4e2013.css.map",
+    "main.531ef942.js.map": "/static/js/main.531ef942.js.map",
+    "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4e2013.css",
+    "static/js/main.531ef942.js"
+  ]
+}
