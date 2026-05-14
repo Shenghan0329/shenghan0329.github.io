@@ -1,14 +1,10 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import artmapImg from '../assets/images/artmap.png';
+import xiaobaiImg from '../assets/images/xiaobai.png';
+import realestateImg from '../assets/images/real-estate.jpg';
+import youtubeCustomizerImg from '../assets/images/youtube-customizer.png';
+import ninoImg from '../assets/images/nino.png';
+import eulerPlotterImg from '../assets/images/euler-plotter.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -17,54 +13,34 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://art-map-one.vercel.app/" target="_blank" rel="noreferrer"><img src={artmapImg} className="zoom" alt="ArtMap thumbnail" width="100%"/></a>
+                <a href="https://art-map-one.vercel.app/" target="_blank" rel="noreferrer"><h2>ArtMap</h2></a>
+                <p>Google Maps Platform Awards Winner. A global art discovery platform combining Next.js, React, Three.js, and Google Maps API. Features interactive 3D galleries synchronized with Street View, artwork geolocation via the Art Institute of Chicago API, and an AI-powered tour guide using Gemini API.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://github.com/Shenghan0329" target="_blank" rel="noreferrer"><img src={xiaobaiImg} className="zoom" alt="Xiaobai thumbnail" width="100%"/></a>
+                <a href="https://github.com/Shenghan0329" target="_blank" rel="noreferrer"><h2>Xiaobai — Couple Diary Platform</h2></a>
+                <p>A private couple diary platform where partners can create, share, and cherish memories together through rich media entries and real-time notifications.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://github.com/Shenghan0329" target="_blank" rel="noreferrer"><img src={realestateImg} className="zoom" alt="Real Estate thumbnail" width="100%"/></a>
+                <a href="https://github.com/Shenghan0329" target="_blank" rel="noreferrer"><h2>Real Estate Analysis Platform</h2></a>
+                <p>An AI-powered real estate analysis platform that helps users explore property trends, compare markets, and manage their portfolios through intuitive visualizations and data-driven insights.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href="https://addons.mozilla.org/en-US/firefox/addon/youtube-interface-customizer/" target="_blank" rel="noreferrer"><img src={youtubeCustomizerImg} className="zoom" alt="YouTube Customizer thumbnail" width="100%"/></a>
+                <a href="https://addons.mozilla.org/en-US/firefox/addon/youtube-interface-customizer/" target="_blank" rel="noreferrer"><h2>YouTube Interface Customizer</h2></a>
+                <p>A Firefox browser extension that customizes and enhances the YouTube viewing experience. Published on the Mozilla Add-ons Store with active users.</p>
             </div>
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
+                <a href="https://github.com/Shenghan0329/Nino" target="_blank" rel="noreferrer"><img src={ninoImg} className="zoom" alt="Nino thumbnail" width="100%"/></a>
+                <a href="https://github.com/Shenghan0329/Nino" target="_blank" rel="noreferrer"><h2>Nino — Mobile App</h2></a>
+                <p>A mobile application project focused on delivering an intuitive user experience with modern mobile development practices.</p>
             </div>
             <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <a href="https://github.com/Shenghan0329/euler-plotter" target="_blank" rel="noreferrer"><img src={eulerPlotterImg} className="zoom" alt="Euler Plotter thumbnail" width="100%"/></a>
+                <a href="https://github.com/Shenghan0329/euler-plotter" target="_blank" rel="noreferrer"><h2>Euler Plotter</h2></a>
+                <p>A differential-algebraic demonstration tool for numerical methods, visualizing mathematical concepts through interactive plotting and computation.</p>
             </div>
         </div>
     </div>
